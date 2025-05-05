@@ -13,12 +13,17 @@ body {
   @apply text-white font-bold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
+.tg-button {
+  background: radial-gradient(50% 50% at 50% 50%, #1E8AB5 0%, #007AAB 100%);
+  @apply text-white font-bold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
+}
+
 .submit-button {
   background: radial-gradient(50% 50% at 50% 50%, #B50374 0%, #DF43A6 100%);
   @apply text-white font-bold h-16 rounded-full cursor-pointer text-2xl relative overflow-hidden shadow w-full;
 }
 
-.main-button::before {
+.main-button::before, .tg-button::before {
   content: '';
   position: absolute;
   top: -50%;
