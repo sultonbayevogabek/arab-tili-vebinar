@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 18px 0 #00000014;
+}
+
+#main {
+  background-image: url("../img/bg-main.webp");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
