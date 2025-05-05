@@ -26,7 +26,7 @@
     formData.append('utm_medium', utmParams.utmMedium);
     formData.append('utm_campaign', utmParams.utmCampaign);
 
-    let response = await fetch('https://script.google.com/macros/s/AKfycbwF7HJyb9ttMcsL9TtooqKmHgXV2p8QOnVwwCB57bCRkgbJAbGLEP_KGFUKt1tK4fdQ/exec', {
+    let response = await fetch('https://script.google.com/macros/s/AKfycby4N1_b_K6KcdqwGEme2qHUF6EqW6XXFtDcisiUWYKKwM3ylvOu73eAIsG-2yNrRvBvyA/exec', {
       method: 'POST',
       body: formData
     })
