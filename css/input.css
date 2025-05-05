@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
-body {
-  font-family: "Inter", sans-serif;
+body {s
+  font-family: "Inter", sans-erif;
 }
 
 .custom-shadow {
-  box-shadow: 0px 9px 18px 0px #F4E6E6;
+  box-shadow: 0px 4px 24px 0px #0000001F;
 }
 
 .main-button {
-  background: radial-gradient(50% 50% at 50% 50%, #B50374 0%, #DF43A6 100%);
+  background: linear-gradient(90deg, #C82828 0%, #E24747 46.15%, #C82828 100%);
   @apply text-white font-bold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .submit-button {
-  background: radial-gradient(50% 50% at 50% 50%, #B50374 0%, #DF43A6 100%);
+  background: linear-gradient(90deg, #C82828 0%, #E24747 46.15%, #C82828 100%);
   @apply text-white font-bold h-16 rounded-full cursor-pointer text-2xl relative overflow-hidden shadow w-full;
 }
 
