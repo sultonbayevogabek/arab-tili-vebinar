@@ -20,6 +20,11 @@ body {
   @apply text-white font-bold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
+.submit-button {
+  background: linear-gradient(90deg, #F1A500 0%, #D39000 52.88%, #F1A500 100%);
+  @apply text-white font-bold h-16 rounded-full cursor-pointer text-2xl relative overflow-hidden shadow w-full;
+}
+
 .main-button::before {
   content: '';
   position: absolute;
