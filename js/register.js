@@ -1,15 +1,11 @@
 'use strict';
 
 (async _ => {
-  const statistics = new Statistics();
   let user = JSON.parse(localStorage.getItem('user'));
 
   const joinButton = document.querySelector('#joinToChannel')
   joinButton?.addEventListener('click', async (e) => {
-    joinButton.disabled = true;
-    await statistics.onClickTgBtn();
-    joinButton.disabled = false;
-    window.location.href = 'https://t.me/+_zNMxMi7cHplYmMy';
+    window.location.href = 'https://t.me/+EWhH9PtohlQ3OTk6';
   })
 
   if (user && user?.name && user?.phone && user?.time) {
