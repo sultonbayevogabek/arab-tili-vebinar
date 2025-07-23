@@ -94,7 +94,7 @@ try {
       submitButton.removeAttribute('disabled');
       submitButton.textContent = "Рўйхатдан ўтиш";
       closeModal();
-      window.location.href = `../telegram.html` + window.location.search;
+      window.location.href = `../telegram.html`;
     }
   })
 } catch (e) {
