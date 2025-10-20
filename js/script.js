@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const selectedCountryCode = countrySelect.value;
 
     if (!name.length) {
-      formAlert.textContent = 'Ismingizni kiriting';
+      formAlert.textContent = 'Исмингизни киритинг';
       formAlert.classList.remove('hidden');
       return;
     }
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Telefon raqam tekshirish - faqat raqamlar soni
     const phoneNumbers = phone.replace(/\D/g, '');
     if (phoneNumbers.length < currentFormat.length) {
-      formAlert.textContent = 'To\'liq telefon raqamingizni kiriting';
+      formAlert.textContent = 'Тўлиқ телефон рақамингизни киритинг';
       formAlert.classList.remove('hidden');
       return;
     }
